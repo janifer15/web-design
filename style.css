@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: rgba(5, 0, 0, 0.3);
+  margin: 0px;
+  padding: 0px;
+}
+/*--------navbar---------*/
+.singup-btn{
+  font-size: 18px;
+}
+.navbar {
+  background-color: teal;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0px;
+  padding-left: 60px;
+  overflow: hidden;
+}
+.navbar ul li {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: capitalize;
+
+}
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #80ff80;
+  padding: 18px 15px;
+  text-align: center;
+}
+.navbar ul li a:hover {
+  background-color: rgba(115, 110, 210, 0.5);
+  color: white;
+  transition: 1s;
+}
+.active {
+  background-color:	 #99ccff;
+    color: white;
+}
+/*--------body1---------*/
+.body1 {
+  background-image: url("img/bg1.jpg");
+  background-position: center;
+  background-clip: border-box;
+  width: 100%;
+  height: auto;
+}
+.header-text {
+  text-align: center;
+  font-style: normal;
+  text-transform: capitalize;
+  text-shadow: 2.5px 2.5px 6px #6600cc;
+}
+
+.section1 {
+  background-color: #cccccc;
+  width: 25%;
+  margin: 12px;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  float: left;
+}
+.aside-head {
+  font-size: 20px;
+  text-transform: capitalize;
+  color: 	 #0077b3;
+}
+.section2 {
+  background-color: #e6e6e6;
+  width: 70%;
+  margin: 12px 6px;
+  padding: 8px 15px;
+  box-sizing: border-box;
+  float: left;
+}
+@media only screen and (max-width:500px) {
+  .section2 {
+    width:95%;
+    margin: 12px;
+   }
+}
+.about {
+  background-color:  #4d4d4d;
+  color: #d9d9d9;
+  width: 100%;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  overflow: hidden;
+  clear: both;
+  column-count: 3;
+  column-rule: 1px solid orange;
+  column-width: 10px;
+  column-gap: 55px;
+}
+.img1 {
+  box-sizing: border-box;
+  border: 1px solid green;
+  width: 30%;
+  margin: 5px;
+  float: left;
+  margin-left: 20px;
+  padding: 15px;
+
+}
+.img1 img {
+  width: 100%;
+}
+.img1 .info {
+  padding: 8px;
+  color: #5c0099;
+  text-transform: capitalize;
+  font-style: oblique;
+}
+.anna {
+  text-transform: capitalize;
+  color:  #cc0066;
+  font-style: italic;
+  text-shadow: 1.5px 2.5px 5px #00b3b3;
+}
+
+@media only screen and (max-width:500px) {
+  .img1{
+    width: 90%;
+    margin: 15px;
+  }
+}
+/*------rounded-------------*/
+#rounded{
+  float: left;
+  overflow: hidden;
+  clear: both;
+  margin: 5px 20px;
+  padding: 38px 12px;
+  width: 30%;
+  background-image: url("img/bg2.jpg");
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-attachment: fixed;
+  background-clip: border-box;
+  background-origin: border-box;
+}
+.img-rounded img{
+  border: 1px dotted blue;
+  border-radius: 50%;
+  height: auto;
+  width: 140px;
+  padding: 3px;
+  display: block;
+  margin: auto;
+}
+#rounded:hover{
+  padding: 38px 30%;
+  transition: 1s;
+  width: 95%;
+}
+#rounded .info {
+  color: #00134d;
+}
+/*------footer menu--------*/
+.footer-menu {
+  clear: both;
+  background-color: #8c1aff;
+  padding:20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 3px double green;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 12px 0px;
+    display: inline-block;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 1px groove  #00ff00;
+    color:  #000000;
+}
+.form-text {
+  color: #b3b300;
+  font-size: 25px;
+  text-shadow: 2.5px 2.5px 16px  #ffff00;
+}
+.textara textarea{
+  width: 100%;
+  border: 2px solid green;
+}
+.form-btn {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  padding: 15px 88px;
+  background: repeating-linear-gradient( 40deg,green,orange,#1aff8c 35%,yellow,#8080ff);
+  color: green;
+  box-shadow: -1px 1px 12px 2px  teal;
+}
+.form-btn:hover{
+  color: black;
+  background: #8080ff;
+  box-shadow: -1px 1px 12px 2px  lightsalmon;
+}
+.form-header {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 1.5px 2.5px 6px #cccc00;
+}
+.line{
+  color: white;
+  width: 100%;
+  margin: 2px;
+  padding: 0px;
+}
+.footer{
+  background-color: #8080ff;
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
